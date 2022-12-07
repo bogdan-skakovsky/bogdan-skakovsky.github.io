@@ -1,0 +1,17 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+
+// тестовые стили, удалите их
+
+
+.page{
+    body{
+        background-color: #E2D3CE;
+    }
+}

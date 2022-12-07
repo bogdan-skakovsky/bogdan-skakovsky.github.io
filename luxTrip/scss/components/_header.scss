@@ -1,0 +1,16 @@
+.header{
+    &__main{
+        background: url(../img/header-main.png);
+        height: 1000px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container-header{
+    max-width: 1348px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
